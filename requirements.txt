@@ -3,4 +3,4 @@ numpy
 scikit-learn
 flask
 mlflow
-airflow
+apache-airflow
