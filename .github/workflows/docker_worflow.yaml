@@ -17,6 +17,6 @@ jobs:
         pylint --generate-rcfile > .pylintrc
     - name: Linter test
       run: |
-        pylint --disable=all $(git ls-file '*.py')
+        pylint --disable=all $(git ls-files '*.py')
     - name: Run a Docker
       run: docker build -t complete_app .
